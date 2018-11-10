@@ -7,11 +7,11 @@ Download.
 ## Usage
 Under the folder of all sources, run the program: `make paint` or `make`.
 
-###Mouse event:
+### Mouse event:
 Right click -> show menu.
 Left click -> choose option.
 
-###Menu:
+### Menu:
 1. **Colour** -> You can choose Red, Green, Blue, Yellow or Random, the default color is Red.
 2. **Shapes** -> The default shape is Point.
   - Point -> draw a dot at the point clicked with the mouse. Clicking and dragging will draw points constantly like free-form drawing.
@@ -26,7 +26,7 @@ Left click -> choose option.
 7. **Clear** -> clear all the points and clear the history.
 8. **Quit** -> close the window.
 
-###Keyboard events:
+### Keyboard events:
 1. **q** or **esc** -> close the window.
 2. **c** -> clear all the points and clear the history.
 3. **+** -> larger size of eraser or brush.
