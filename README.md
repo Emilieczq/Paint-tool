@@ -1,11 +1,16 @@
 # Paint
 This program is a simple paint tool which is similar to the Paint of Microsoft. It is written in the language C++ with OpenGL/GLUT.
 
-## Installation
-Download.
+## Preview
+<p align="center">
+    <img width="500" src="Paint.gif"/>
+</p>
 
-## Usage
-Under the folder of all sources, run the program: `make paint` or `make`.
+## Installation
+Download all files.
+
+## Controls
+Under the folder of all resources, run the program: `make paint` or `make`.
 
 ### Mouse event:
 Right click -> show menu.
