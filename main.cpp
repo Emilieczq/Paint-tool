@@ -1,5 +1,5 @@
 #include <time.h>
-#include "Dot.h"
+#include "Dot.cpp"
 #include <iostream>
 #include <cmath>
 #include <string>
