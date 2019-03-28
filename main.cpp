@@ -489,6 +489,7 @@ void processColourMenu(int value)
 {
 	isSecond = false;
 	isEraser = false;
+	isRandom = false;
 
 	switch (value)
 	{
