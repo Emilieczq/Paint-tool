@@ -210,14 +210,16 @@ void drawRectangle(int x1, int y1, int x2, int y2)
 		drawLine(x2, y2, x1, y2);
 		drawLine(x1, y2, x1, y1);
 	}
+
 	else
 	{
-		time_t rawtime;
-		struct tm *timeinfo;
-		time(&rawtime);
-		timeinfo = localtime(&rawtime);
-		std::cout << asctime(timeinfo)
-				  << "[Warning] The first click should be the top-left corner, the second click should be bottom-right corner.\n";
+		int t1 = x1;
+		int t2 = y1;
+		x1 = min(x1, x2);
+		y1 = min(y1, y2);
+		x2 = max(t1, x2);
+		y2 = max(t2, y2);
+		drawRectangle(x1,y1,x2,y2);
 	}
 }
 
